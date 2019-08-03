@@ -1,75 +1,39 @@
-/**
- * Bio component that queries for data
- * with Gatsby's StaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/static-query/
- */
-
 import React from "react"
-import { StaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
+import avatarPic from './kalabro-avatar.jpg'
 
 function Bio() {
   return (
-    <StaticQuery
-      query={bioQuery}
-      render={data => {
-        const { author, social } = data.site.siteMetadata
-        return (
-          <div
-            style={{
-              display: `flex`,
-              marginBottom: rhythm(2.5),
-            }}
-          >
-            <Image
-              fixed={data.avatar.childImageSharp.fixed}
-              alt={author}
-              style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-                borderRadius: `100%`,
-              }}
-              imgStyle={{
-                borderRadius: `50%`,
-              }}
-            />
-            <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
-              </a>
-            </p>
-          </div>
-        )
+    <div
+      style={{
+        display: 'flex',
+        marginBottom: rhythm(2.5),
       }}
-    />
+    >
+      <img
+        src={avatarPic}
+        alt={`Kate Marshalkina`}
+        style={{
+          marginRight: rhythm(1 / 2),
+          marginBottom: 0,
+          width: rhythm(5),
+          height: rhythm(5),
+          borderRadius: '50%'
+        }}
+      />
+      <div>
+        <h4 style={{ marginTop: rhythm(0.5) }}>Hi, I’m Kate <span role="img" aria-label="light bulb">💡</span></h4>
+        <p>I love solving problems regardless of type of work: from basic client support to advanced devops tasks. I do it better when I understand how things work but sometimes it just feels like magic.</p>
+        <p>
+          <a href="mailto:marshalkina@gmail.com">marshalkina@gmail.com</a> ~ {' '}
+          <a href="https://twitter.com/kalabro">@kalabro</a> ~ {' '}
+          <a href="https://github.com/kalabro">GitHub</a> ~ {' '}
+          <a href="https://www.drupal.org/u/kalabro">Drupal</a>
+        </p>
+      </div>
+    </div>
   )
 }
-
-const bioQuery = graphql`
-  query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-      childImageSharp {
-        fixed(width: 50, height: 50) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    site {
-      siteMetadata {
-        author
-        social {
-          twitter
-        }
-      }
-    }
-  }
-`
 
 export default Bio

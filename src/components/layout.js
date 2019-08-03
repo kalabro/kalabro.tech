@@ -15,16 +15,17 @@ class Layout extends React.Component {
           style={{
             ...scale(1.5),
             marginBottom: rhythm(1.5),
-            marginTop: 0,
+            marginTop: rhythm(1.5),
           }}
         >
           <Link
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
+              boxShadow: 'none',
+              textDecoration: 'none',
+              backgroundImage: 'none',
+              color: 'inherit',
             }}
-            to={`/`}
+            to={'/'}
           >
             {title}
           </Link>
@@ -34,38 +35,40 @@ class Layout extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: `Montserrat, sans-serif`,
+            fontFamily: 'Montserrat, sans-serif',
+            fontWeight: 100,
             marginTop: 0,
           }}
         >
-          <Link
+          ← <Link
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
+              boxShadow: 'none',
+              textDecoration: 'none',
+              color: 'inherit',
             }}
-            to={`/`}
+            to={'/'}
           >
-            {title}
+            Making websites in 2018
           </Link>
         </h3>
       )
     }
+
     return (
       <div
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
-          maxWidth: rhythm(24),
+          maxWidth: rhythm(28),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          {location.pathname === rootPath &&
+            <small>Last updated at {new Date().toISOString()}</small>
+          }
         </footer>
       </div>
     )
