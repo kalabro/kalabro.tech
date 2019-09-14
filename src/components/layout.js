@@ -20,12 +20,12 @@ class Layout extends React.Component {
         >
           <Link
             style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              backgroundImage: 'none',
-              color: 'inherit',
+              boxShadow: "none",
+              textDecoration: "none",
+              backgroundImage: "none",
+              color: "inherit",
             }}
-            to={'/'}
+            to={"/"}
           >
             {title}
           </Link>
@@ -35,20 +35,21 @@ class Layout extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: 'Montserrat, sans-serif',
+            fontFamily: "Montserrat, sans-serif",
             fontWeight: 100,
             marginTop: 0,
           }}
         >
-          ← <Link
+          ←{" "}
+          <Link
             style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
+              boxShadow: "none",
+              textDecoration: "none",
+              color: "inherit",
             }}
-            to={'/'}
+            to={"/"}
           >
-            Making websites in 2018
+            Making websites in 2019
           </Link>
         </h3>
       )
@@ -66,9 +67,9 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          {location.pathname === rootPath &&
+          {location.pathname === rootPath && (
             <small>Last updated at {new Date().toISOString()}</small>
-          }
+          )}
         </footer>
       </div>
     )
