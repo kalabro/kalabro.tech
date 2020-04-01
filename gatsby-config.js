@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Making websites in 2019`,
+    title: `Making websites in 2020`,
     author: `Kate Marshalkina`,
-    description: `Making websites in 2019 - Kate's blog`,
+    description: `Making websites in 2020 - Kate's blog`,
     siteUrl: `https://kalabro.tech`,
     social: {
       twitter: `kalabro`,
