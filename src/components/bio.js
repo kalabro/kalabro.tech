@@ -36,9 +36,8 @@ function Bio() {
           things work but sometimes it just feels like magic.
         </p>
         <p>
-          <a href="mailto:marshalkina@gmail.com">marshalkina@gmail.com</a> ~{" "}
-          <a href="https://twitter.com/kalabro">@kalabro</a> ~{" "}
-          <a href="https://github.com/kalabro">GitHub</a> ~{" "}
+          <a href="https://twitter.com/kalabro">@kalabro on Twitter</a> ~{" "}
+          <a href="https://www.linkedin.com/in/kalabro/">LinkedIn</a> ~{" "}
           <a href="https://www.drupal.org/u/kalabro">Drupal</a>
         </p>
       </div>
