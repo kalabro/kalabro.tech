@@ -49,7 +49,7 @@ class Layout extends React.Component {
             }}
             to={"/"}
           >
-            Making websites in 2022
+            Making websites in 2023
           </Link>
         </h3>
       )

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Making websites in 2022`,
+    title: `Making websites in 2023`,
     author: `Kate Marshalkina`,
-    description: `Making websites in 2022 - Kate's blog`,
+    description: `Making websites in 2023 - Kate's blog`,
     siteUrl: `https://kalabro.tech`,
     social: {
       twitter: `kalabro`,
@@ -17,15 +17,12 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`,
-      },
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
+        tableOfContents: {
+          heading: 'Table Of Contents',
+          maxDepth: 2,
+        },
         plugins: [
           {
             resolve: `gatsby-remark-images`,
@@ -38,6 +35,13 @@ module.exports = {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
               wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
+          },
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              offsetY: `40`,
+              icon: false,
             },
           },
           `gatsby-remark-prismjs`,

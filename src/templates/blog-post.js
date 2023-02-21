@@ -12,11 +12,14 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
+    const html = post.html.replace('[[TOC]]', `<div class="toc">${post.tableOfContents}</div>`);
+
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
+          image={post.frontmatter.image ? post.frontmatter.image.childImageSharp.fluid.src : null}
         />
         <h1>{post.frontmatter.title}</h1>
         <p
@@ -28,7 +31,7 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div dangerouslySetInnerHTML={{ __html: html }} />
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -80,10 +83,18 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      tableOfContents
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        image {
+          childImageSharp {
+            fluid (maxWidth: 1200) {
+              src
+            }
+          }
+        }
       }
     }
   }

@@ -31,14 +31,11 @@ function Bio() {
           </span>
         </h4>
         <p>
-          I love solving problems regardless of type of work: from basic client
-          support to advanced devops tasks. I do it better when I understand how
-          things work but sometimes it just feels like magic.
+        I love solving problems regardless of the type of work: from basic client support to advanced devops tasks. I do it better when I understand how things work, but sometimes it just feels like magic.
         </p>
         <p>
           <a href="https://twitter.com/kalabro">@kalabro on Twitter</a> ~{" "}
-          <a href="https://www.linkedin.com/in/kalabro/">LinkedIn</a> ~{" "}
-          <a href="https://www.drupal.org/u/kalabro">Drupal</a>
+          <a href="https://www.linkedin.com/in/kalabro/">LinkedIn</a>
         </p>
       </div>
     </div>

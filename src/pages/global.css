@@ -1,0 +1,26 @@
+.anchor {
+  background-image: none;
+}
+
+.toc li {
+  margin-bottom: 0;
+}
+
+.toc a {
+  background-image: none;
+}
+
+.toc a:hover, .toc a:active, .toc a:focus-visible {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.gatsby-highlight-code-line {
+  background-color: white;
+  display: block;
+  margin-right: -1em;
+  margin-left: -1em;
+  padding-right: 1em;
+  padding-left: 0.75em;
+  border-left: 0.25em solid #1ca086;
+}

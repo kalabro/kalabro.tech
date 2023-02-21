@@ -2,6 +2,7 @@
 title: Decode Alias and Union Types in Elm
 description: I’m so exited to open this blog with a post about Elm, a functional programming language for building web frontend. As a user, I interact with Elm almost every day...
 date: "2018-01-21T18:58:34.115Z"
+image: mentor-eye.jpg
 ---
 
 I’m so exited to open this blog with a post about Elm, a functional programming language for building web frontend. As a user, I interact with Elm almost every day — we at SystemSeed use [Pivotal Tracker](https://www.pivotaltracker.com/blog/Elm-pivotal-tracker/) as a project management tool.
@@ -15,7 +16,8 @@ There are a lot of examples of how to decode JSON objects into Elm alias types. 
 ## Decoding into alias types
 
 I'm going to decode the following piece of JSON from api.themoviedb.org into a `Movie`:
-```
+
+```json
 {
   "homepage": "http://www.thegodfather.com/",
   "id": 238,
@@ -57,7 +59,7 @@ decodeMovie =
 
 `map4` takes a function and runs four decoders to pass as params to that function. In our case `map4` will call `Movie` counstructor and pass four decoded strings in the order which `Movie` counstructor expects. That looks pretty good so far exept the `year` field. I'd rather use integer for that. Let's decode a string of format `YYYY-MM-DD` from our JSON into an integer field instead:
 
-```
+```elm
 type alias Movie =
     { title : String
     , description : String
@@ -68,7 +70,7 @@ type alias Movie =
 
 Below is an example solution for this task:
 
-```
+```elm
 decodeMovie : Decoder Movie
 decodeMovie =
     Json.Decode.map4 Movie
@@ -96,7 +98,7 @@ decodeYear releaseDate =
 
 You can also delegate Result handling from `decodeYear` function to `fromResult` helper from Json.Extra library. You can read more about it [here](https://www.brianthicks.com/post/2017/01/13/create-custom-json-decoders-in-elm-018/#in-real-life-use-fromresult-from-json-decode-extra).
 
-```
+```elm
 decodeMovie : Decoder Movie
 decodeMovie =
     Json.Decode.map4 Movie
@@ -120,7 +122,7 @@ Cool! Time to play with union types.
 
 Let's introduce a new union type for the `language` field. That field will differentiate English movies from others and also store language codes and original titles of foreign films so we can display them in a specific way if we want.
 
-```
+```elm
 type alias Movie =
     { title : String
     , description : String
@@ -142,7 +144,7 @@ type alias OriginalTitle = String
 
 First, I'll create a function which takes a language code and an original title and returns a new `Language`:
 
-```
+```elm
 initLanguage : Langcode -> OriginalTitle -> Language
 initLanguage langcode title =
     if langcode == "en" then
@@ -155,7 +157,7 @@ There is nothing to do with decoders yet. We've just prepared a universal "const
 
 Those two params should be decoded into strings first and then passed to `initLanguage`. Sounds like `map2`:
 
-```
+```elm
 decodeLanguage : Decoder Language
 decodeLanguage =
     Json.Decode.map2 initLanguage
@@ -165,7 +167,7 @@ decodeLanguage =
 
 Finally, let's call this custom decoder from our parent decoder:
 
-```
+```elm
 decodeMovie =
     Json.Decode.map4 Movie
         (field "title" string)
