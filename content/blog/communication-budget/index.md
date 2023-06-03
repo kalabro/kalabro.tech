@@ -65,4 +65,6 @@ As an introvert, I have a limited communication capacity that I refer to as my "
 
 Firstly, I gave up some of my management responsibilities and made it a habit to come to the office twice a week. Surprisingly, in-person meetings drain me much less compared to Zoom calls. Additionally, I began working with a mentor to enhance the efficiency of my communication.
 
-By making these changes, I am now able to engage more with the global IT community and naturally expand my professional network. I have found several activities that work well for me, such as meetups, mentorship, and blogging. I'd love to know what works for you, especially if you consider yourself a less outgoing person.
+By making these changes, I am now able to engage more with the global IT community and naturally expand my professional network. I have found several activities that work well for me, such as meetups, mentorship, and blogging.
+
+I'd love to know what works for you, especially if you consider yourself a less outgoing person. Please, share your experience in comments on [DEV.to](https://dev.to/kalabro/budgeting-my-communication-capacity-pb5) or contact me directly. Let's connect! 😄
