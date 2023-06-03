@@ -24,7 +24,7 @@ While 5% may seem like a small number, there are many activities in IT that brin
 
 I found my current employer on meetup.com. I have also built strong connections with people I met at meetups and conferences. For me, the best way to network at a conference is to give a talk. This way, people come to me with specific questions, and I don't need to worry about how to start a conversation. I can also build good relationships with other speakers by giving feedback and asking follow-up questions. Even if I don't create any meaningful connections, I go home inspired and motivated. Good enough for me.
 
-## Mentorship and couching
+## Mentorship and coaching
 
 I feel much more comfortable in deeper 1:1 conversations than in group activities with strangers. Mentorship sessions were the main source of energy for me in 2022. I spoke to engineers and leaders from various organisations, and  everyone was very helpful and supportive. Today, I have a couple of trusted mentors, and offer engineering mentorships myself on [ADPList](https://adplist.org/mentors/kate-marshalkina). If you are new to mentorship read my post ["Where to find a mentor"](https://kalabro.tech/where-to-find-mentor-2023/) to get started.
 
