@@ -3,7 +3,9 @@
   extends: [
     "config:js-app",
     "schedule:monthly",
-    "npm:unpublishSafe"
+    "npm:unpublishSafe",
+    ":approveMajorUpdates",
+    ":maintainLockFilesMonthly"
   ],
   transitiveRemediation: true
 }
