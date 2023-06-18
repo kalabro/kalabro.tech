@@ -124,6 +124,6 @@ Instead of jumping back and forth between different PRs and Renovate app logs, I
 
 ## To summarise
 
-If you're seeking an automated dependency management tool, I can confidently recommend Renovate. It's well-designed, flexible, and open source. After using it for over a year, I particularly enjoy some of its features, such as sharable configs and the Dependency Dashboard. However, be aware that the initial learning curve can be steep, especially if can't use the preconfigured GitHub app.
+If you're seeking an automated dependency management tool, I can confidently recommend Renovate. It's well-designed, flexible, and open source. After using it for over a year, I particularly enjoy some of its features, such as shareable configs and the Dependency Dashboard. However, be aware that the initial learning curve can be steep, especially if can't use the preconfigured GitHub app.
 
-Are you using Renovate or any other dependency management tool? I'd love to know about your experience in the comments!
+Are you using Renovate or any other dependency management tool? I'd love to know about your experience in the comments [on DEV](https://dev.to/kalabro/it-depends-exploring-my-favourite-renovate-features-for-dependency-updates-3j5a)!
