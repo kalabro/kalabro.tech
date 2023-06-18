@@ -2,7 +2,7 @@
 title: "It depends! Exploring my favourite Renovate features for dependency updates"
 description: "My top 5 features of Renovate, an open source tool for automated dependency updates."
 date: "2023-06-18T14:00:00.000Z"
-image: og-image.jpg
+image: og-image.png
 ---
 
 I learned about [Renovate](https://docs.renovatebot.com/) a couple of years ago when I was trying to group automated updates in Dependabot. It's 2023, and Dependabot is [still figuring out](https://github.com/dependabot/dependabot-core/issues/1190) how to implement grouping. Not blaming them; dependency updates are challenging. Regardless of the approach you take, a fair amount of work is required to set up tools and processes for dependency management. In this post, I have collected a few of my favourite features and tricks when working with Renovate. Have I missed anything? Of course! Renovate is highly configurable (and well-documented), so if you need the full guide, please consult the official docs.
