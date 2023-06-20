@@ -57,7 +57,7 @@ If I have multiple projects similar to this one, I can convert my new configurat
 }
 ```
 
-It assumes that my shareable config is available at `https://github.com/kalabro/kalabro.tech/renovate/js-app.json`. As you probably guessed, you can keep customising the final config using other presets or configuration options. For example, you may need to group (or exclude) certain dependencies to reduce update noise.
+It assumes that my [shareable config](https://docs.renovatebot.com/config-presets/) is available at `https://github.com/kalabro/kalabro.tech/renovate/js-app.json`. As you probably guessed, you can keep customising the final config using other presets or configuration options. For example, you may need to group (or exclude) certain dependencies to reduce update noise.
 
 ## Feature 2: grouping related updates
 
@@ -88,7 +88,7 @@ A word of caution. Although it may seem counterintuitive, I have found that smal
 
 ## Feature 3: lock file updates
 
-Renovate performs update checks for your direct dependencies, which are the ones listed in the package.json file. These direct dependencies can themselves have their own dependencies, which are known as indirect or transitive dependencies. Typical web projects often have much more transitive dependencies than direct ones. The easiest way to keep these dependencies up to date is by regularly refreshing the lock file. When you combine this approach with [dependency pinning](https://docs.renovatebot.com/dependency-pinning/), lock file updates can be safely automated.
+Renovate performs update checks for your direct dependencies, which are the ones listed in the package.json file. These direct dependencies can themselves have their own dependencies, which are known as indirect or transitive dependencies. Typical web projects often have much more transitive dependencies than direct ones. The easiest way to keep these dependencies up to date is by regularly refreshing the lock file. When you combine this approach with [dependency pinning](https://docs.renovatebot.com/dependency-pinning/), lock file updates can be safely automerged.
 
 ```json5
 {
@@ -124,6 +124,6 @@ Instead of jumping back and forth between different PRs and Renovate app logs, I
 
 ## To summarise
 
-If you're seeking an automated dependency management tool, I can confidently recommend Renovate. It's well-designed, flexible, and open source. After using it for over a year, I particularly enjoy some of its features, such as shareable configs and the Dependency Dashboard. However, be aware that the initial learning curve can be steep, especially if can't use the preconfigured GitHub app.
+If you're seeking an automated dependency management tool, I can confidently recommend Renovate. It's well-designed, flexible, and open source. After using it for over a year, I particularly enjoy some of its features, such as shareable configs and the Dependency Dashboard. However, be aware that the initial learning curve can be steep, especially if you can't use the preconfigured GitHub app.
 
 Are you using Renovate or any other dependency management tool? I'd love to know about your experience in the comments [on DEV](https://dev.to/kalabro/it-depends-exploring-my-favourite-renovate-features-for-dependency-updates-3j5a)!
