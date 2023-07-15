@@ -20,7 +20,7 @@ I had to consciously enable "Sponge Mode" for my first month in a new company. "
 ## Meet people
 Go to the office, share a personal story, play "Two truths, one lie", have a beer, and be yourself throughout the process. Building relationships and gaining trust takes time. It's a good idea to show others that you are interested in building relationships. And you are, because software development is a team sport.
 
-Ask different people the same question
+## Ask different people the same question
 During the first weeks, you have the privilege to ask stupid questions and get detailed answers. Try to build a multi-dimensional model of your new workspace by asking different people the same question. For example, ask a fellow developer, Product Manager, and UX designer what they think your team is building. You'll likely receive three different answers, all correct in their own context.
 
 ## Read source code
