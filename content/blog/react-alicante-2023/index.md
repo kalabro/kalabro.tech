@@ -191,7 +191,8 @@ Stefano shared the news from indiehackers space. Most side gigs fail, but even w
 they succeed in the first place, like Stefano's Imagzle app, it's a tough ride.
 
 ### Reviewing code review - duty, fun or... revenge? by Paulina Chojnowska
-Twitter: [@AntariaPaulina](https://twitter.com/AntariaPaulina)
+Twitter: [@AntariaPaulina](https://twitter.com/AntariaPaulina)  
+Slides: https://www.slideshare.net/Paulina218683/reactalicante2023paulinachojnowskapdf  
 
 Another perfect lightning talk on the challenges of a good old code review. Paulina nails it down to two questions: Does the code work? Do you like it?   
 A bonus:
