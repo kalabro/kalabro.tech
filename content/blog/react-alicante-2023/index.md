@@ -44,7 +44,8 @@ const oneMillion = 1_000_000;
 ```
 
 ### Building Text Containers in Canvas by Aakansha Doshi
-Twitter: [@aakansha1216](https://twitter.com/aakansha1216)
+Twitter: [@aakansha1216](https://twitter.com/aakansha1216)  
+Slides: https://docs.google.com/presentation/d/1INBB7oE0tI3SFGK5t65ThWXc0lO3hQ_utVBntKyUyog/edit#slide=id.g24789271ec1_0_0  
 
 A deep dive into canvas from [Excalidraw](https://excalidraw.com/) developer. I appreciated the level of detail and how Aakansha broke down the problem into smaller, understandable pieces. Canvas API reminded me of programmatic PDF manipulation from my past PHP experience. I'm glad I don't have to deal with it anymore 😄
 
@@ -209,7 +210,7 @@ A comprehensive overview of AI tools in the web ecosystem. Check the slides for 
 day-to-day job very soon.
 
 ### Imperative vs Declarative: Weathering the storm by Kyle Simpson
-Twitter: [@getifyAtSocket](https://twitter.com/getifyAtSocket)
+Twitter: [@getifyX](https://twitter.com/getifyX)
 
 Kyle welcomed us to reconsider what we understand as imperative and declarative programming.
 He emphasised the importance of optimising code for reading, not for compiling. Unfortunately, he lost me in the second part of his talk as I was clearly overreacted.
