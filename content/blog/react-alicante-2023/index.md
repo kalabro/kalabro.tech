@@ -5,8 +5,6 @@ date: "2023-10-01T20:00:00.000Z"
 image: image.jpg
 ---
 
-*✍️ Heads up: I'm still polishing and adding the links*
-
 On this page, you can find a full list of all React Alicante 2023 talks with my short comments. If you want a longer opinionated summary, it’s at the very bottom.
 
 Enjoy and feel free to reuse it if you need a summary for your team or employer.  
@@ -208,7 +206,7 @@ Twitter: [@HowDevelop](https://twitter.com/HowDevelop)
 Slides: https://docs.google.com/presentation/d/1Eg4mdpc9-kvmk_yXUU0_mCkyzXs_jvHMqj5FR4URhKE/edit#slide=id.g2863585916f_0_1 
 
 A comprehensive overview of AI tools in the web ecosystem. Check the slides for tons of links from TensorFlow.js to Langchain to AI.JSX. I will definitely do as it will likely be part of my
-day-to-day job.
+day-to-day job very soon.
 
 ### Imperative vs Declarative: Weathering the storm by Kyle Simpson
 Twitter: [@getifyAtSocket](https://twitter.com/getifyAtSocket)
