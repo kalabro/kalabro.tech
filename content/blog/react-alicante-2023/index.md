@@ -67,7 +67,8 @@ Slides: https://drive.google.com/file/d/1Tw4ojP3iNFe2UdT_xzYvvIWxtcNQOwkt/view
 A couple of gotchas from Dan's experience with React Native, such as lack of localStorage, how to correctly import fonts and render HTML, etc. It was interesting to compare it with my [Flutter experience as a React developer](https://kalabro.tech/flutter-for-react-developers/).
 
 ### Maximizing React Performance with DevTools: Profiler and Components by Jelena Maravic
-LinkedIn: [Jelena Maravic](https://www.linkedin.com/in/jelena-maravic)
+LinkedIn: [Jelena Maravic](https://www.linkedin.com/in/jelena-maravic)  
+Slides: https://www.canva.com/design/DAFnrN1Ls5g/view  
 
 This short talk was packed with React performance tips and tricks. In practice, developers often fear profiling tools, and I would love to see more presentations popularizing them.
 
