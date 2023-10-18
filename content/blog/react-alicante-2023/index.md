@@ -135,6 +135,7 @@ A rather boring intro into resumability and its frontman Qwik. What impressed me
 
 ### 🌟 Server-side rendering React natively with Reason by David Sancho 🌟 
 Twitter: [@davesnx](https://twitter.com/davesnx)  
+Slides: https://docs.google.com/presentation/d/150JjwU4HdtdWN_iT5MkvaKrQv3Dnj3OJCey-cRi3V9U/edit#slide=id.g7207e88d15_0_121  
 Blog post: https://sancho.dev/blog/server-side-rendering-react-in-ocaml 
 
 An active contributor to Reason/OCaml ecosystem explains the basics of ReasonML and 
