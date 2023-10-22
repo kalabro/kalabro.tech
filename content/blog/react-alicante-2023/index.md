@@ -73,7 +73,8 @@ Slides: https://www.canva.com/design/DAFnrN1Ls5g/view
 This short talk was packed with React performance tips and tricks. In practice, developers often fear profiling tools, and I would love to see more presentations popularizing them.
 
 ### Codemods - how to support your users with breaking changes delivery by Łukasz Nowak
-GitHub: [@lukasznowakpl](https://github.com/lukasznowakpl)
+GitHub: [@lukasznowakpl](https://github.com/lukasznowakpl)  
+Slides: https://github.com/LukaszNowakPL/codemods/blob/main/%5BEN%5D%202023-09-29%20-%20React%20Alicante%20-%20Codemods.pdf  
 
 A hands-on example of using codemods to help users overcome breaking changes in your library. Apparently, tools like [jscodeshift](https://github.com/facebook/jscodeshift) make it, if not easy, then at least doable. 
 
