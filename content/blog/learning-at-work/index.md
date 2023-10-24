@@ -76,11 +76,11 @@ Other common issues with legacy projects are spaghetti code, outdated technology
 First of all, your tech stack of preference must intersect with the one of your employer.
 It's heartbreaking to see JavaScript developers fighting with PHP (and vice versa). If you find yourself constantly battling against the tech stack, I recommend switching jobs.
 
-Now, let's consider a less extreme example. Imagine that I want to learn Closure. It's a respected language with a high developer satisfaction rating. I have a friend who happily transitioned from PHP to Go to Closure, and I believe I can too! As a Full Stack developer, I'm easily attracted by this kind of thing! However, to be honest, I don't have a lot of tasks at work that would be a good fit for Closure.
+Now, let's consider a less extreme example. Imagine that I want to learn Clojure. It's a respected language with a high developer satisfaction rating. I have a friend who happily transitioned from PHP to Go to Clojure, and I believe I can too! As a Full Stack developer, I'm easily attracted by this kind of thing! However, to be honest, I don't have a lot of tasks at work that would be a good fit for Clojure.
 
-In such a situation, I would question why I want to learn Closure when several other opportunities are available at my current company. Depending on the answer, I might decide to explore Clojure in my spare time or choose another language to feed my curiosity.
+In such a situation, I would question why I want to learn Clojure when several other opportunities are available at my current company. Depending on the answer, I might decide to explore Clojure in my spare time or choose another language to feed my curiosity.
 
-As a side note, I've never experienced disgust towards any particular technology. Closure is cool, and PHP is cool, too.
+As a side note, I've never experienced disgust towards any particular technology. Clojure is cool, and PHP is cool, too.
 
 ### 👺 Obstacle 4: We don't have a learning culture
 
