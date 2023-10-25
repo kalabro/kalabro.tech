@@ -143,7 +143,8 @@ An active contributor to Reason/OCaml ecosystem explains the basics of ReasonML 
 shares a story of building [server-reason-react](https://github.com/ml-in-barcelona/server-reason-react). I wish there were more talks from active open source contributors who deserved their round of applause!
 
 ### Bye-bye, weeds! Digital Gardening with Astro & MDX by Kathleen McMahon
-Twitter: [@resource11](https://twitter.com/resource11)
+Twitter: [@resource11](https://twitter.com/resource11)  
+Slides: https://noti.st/resource11/cegRnq/bye-bye-weeds-digital-gardening-with-astro-mdx  
 
 A story of upgrading a personal blog from Gatsby 2.3 to Astro. Funny enough, this very blog
 runs on Gatsby 2.4. I feel Kathleen's pain, but maybe a dedicated talk at React Alicante is a bit too much for this topic. Anyway, I shortlisted Astro if I ever need to migrate from Gatsby.
