@@ -3,7 +3,7 @@ module.exports = {
     title: `Building web in 2023`,
     author: `Kate Marshalkina`,
     description: `Building web in 2023 - by Kate Marshalkina`,
-    siteUrl: `https://kalabro.tech`,
+    siteUrl: process.env.DOMAIN_URL || process.env.CF_PAGES_URL,
     social: {
       twitter: `kalabro`,
     },
@@ -20,7 +20,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         tableOfContents: {
-          heading: 'Table Of Contents',
+          heading: "Table Of Contents",
           maxDepth: 2,
         },
         plugins: [
@@ -28,7 +28,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1000,
-              linkImagesToOriginal: false
+              linkImagesToOriginal: false,
             },
           },
           {
