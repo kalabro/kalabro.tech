@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { Giscus } from "@giscus/react"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -12,14 +13,21 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
-    const html = post.html.replace('[[TOC]]', `<div class="toc">${post.tableOfContents}</div>`);
+    const html = post.html.replace(
+      "[[TOC]]",
+      `<div class="toc">${post.tableOfContents}</div>`
+    )
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
-          image={post.frontmatter.image ? post.frontmatter.image.childImageSharp.fluid.src : null}
+          image={
+            post.frontmatter.image
+              ? post.frontmatter.image.childImageSharp.fluid.src
+              : null
+          }
         />
         <h1>{post.frontmatter.title}</h1>
         <p
@@ -37,6 +45,24 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
+
+        <Giscus
+          id="comments"
+          repo="kalabro/kalabro.tech"
+          repoId="MDEwOlJlcG9zaXRvcnkyMDg0MjI2MzE="
+          category="Announcements"
+          categoryId="DIC_kwDODGxG584Cb8M7"
+          mapping="specific"
+          term={post.frontmatter.title}
+          reactionsEnabled="1"
+          theme={`${
+            this.props.data.site.siteMetadata.siteUrl
+          }/giscus-theme.css`}
+          emitMetadata="0"
+          lang="en"
+          loading="lazy"
+        />
+
         <Bio />
 
         <ul
@@ -77,6 +103,7 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        siteUrl
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -90,7 +117,7 @@ export const pageQuery = graphql`
         description
         image {
           childImageSharp {
-            fluid (maxWidth: 1200) {
+            fluid(maxWidth: 1200) {
               src
             }
           }
