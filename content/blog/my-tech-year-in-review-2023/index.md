@@ -29,7 +29,7 @@ In 2023, I doubled the volume of my code contributions. Solving problems with co
 
 This year, I had a chance to work on frontend and backend, from microservices to microfrontends, with classic databases and asynchronous messaging mechanisms. I discovered my natural ability to navigate foreign codebases and pick up new tools quickly. I’m an okay coder, but with much more practice (and Copilot), I made great progress this year.
 
-After reading that last line, you may think that I’m being humble. Yes and no. I somehow have never needed to be very good at programming, but at the same time, it’s part of my job that I admire most.
+After reading that last line, you may think that I’m being humble. Yes and no. I somehow have never needed to be very good at programming, but at the same time it’s part of my job that I admire the most.
 
 ### Writing
 
@@ -76,7 +76,7 @@ I also realised that my style and energy may have disturbed a few colleagues, an
 
 In 2019, I had a [similar post](https://kalabro.tech/my-tech-year-in-review-2019/) listing my main tools at work. Surprisingly, they haven’t changed much:
 
-- Macbook Pro M1 (14 “/16”)
+- Macbook Pro M1 (14"/16")
 - Firefox and Chrome (but I try to avoid Chrome)
 - BetterTouchTool
 - VS Code
