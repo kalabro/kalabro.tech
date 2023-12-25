@@ -13,7 +13,9 @@ Below are some highlights from my year in tech:
 
 ### Mentorship
 
-This year, I’ve delivered 1000+ mentorship minutes on ADPList, plus a couple of paid sessions on [codementor](https://www.codementor.io/@kalabro) and [topmate](https://topmate.io/kalabro). At the same time, I was lucky to find a great long-term mentor for myself. Highly recommend a longer commitment over a one-off chat!
+This year, I’ve delivered 1000+ mentorship minutes on [ADPList](https://adplist.org/mentors/kate-marshalkina), plus a couple of paid sessions on [codementor](https://www.codementor.io/@kalabro) and [topmate](https://topmate.io/kalabro). At the same time, I was lucky to find a great long-term mentor for myself. Highly recommend a longer commitment over a one-off chat!
+
+<img src="/adplist-1000.png"><br>
 
 The most common topics discussed in my sessions were job hunting and breaking into tech. While we expect more layoffs and hiring freezes in 2024, I’m optimistic about long-term opportunities in our field. Mentorship is one of the tools to spark and maintain the positivity and self-confidence necessary for overcoming the challenges of 2024.
 
