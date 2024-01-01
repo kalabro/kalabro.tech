@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Building web in 2023`,
+    title: `Building web in 2024`,
     author: `Kate Marshalkina`,
-    description: `Building web in 2023 - by Kate Marshalkina`,
+    description: `Building web in 2024 - by Kate Marshalkina`,
     siteUrl: process.env.DOMAIN_URL || process.env.CF_PAGES_URL,
     social: {
       twitter: `kalabro`,
