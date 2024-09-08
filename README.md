@@ -4,9 +4,9 @@ Hi there, this repo contains the source code for my personal blog [kalabro.tech]
 
 ## Development
 
-- Install Node.js v10 ¯\_(ツ)_/¯
+- Install Node.js v10 `¯\_(ツ)_/¯`
 - `npm install`
-- `npm run dev`
+- `npm run develop`
 
 ## Deployment
 
