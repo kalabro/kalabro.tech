@@ -62,5 +62,12 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       value,
     })
+
+    const pinned = node.frontmatter.pinned || false
+    createNodeField({
+      node,
+      name: `pinned`,
+      value: pinned,
+    })
   }
 }

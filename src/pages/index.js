@@ -25,7 +25,7 @@ class BlogIndex extends React.Component {
           return (
             <div
               key={node.fields.slug}
-              className={node.frontmatter.pinned ? "post-pinned" : ""}
+              className={node.fields.pinned ? "post-pinned" : ""}
             >
               <h3
                 style={{
@@ -38,7 +38,11 @@ class BlogIndex extends React.Component {
                 >
                   {title}
                 </Link>{" "}
-                {node.frontmatter.pinned && <span>📌</span>}
+                {node.fields.pinned && (
+                  <span role="img" aria-label="pinned post">
+                    📌
+                  </span>
+                )}
               </h3>
               <small>{node.frontmatter.date}</small>
               <p
@@ -66,18 +70,18 @@ export const pageQuery = graphql`
            }
            allMarkdownRemark(
              sort: {
-               fields: [frontmatter___pinned, frontmatter___date]
-               order: [ASC, DESC]
+               fields: [fields___pinned, frontmatter___date]
+               order: [DESC, DESC]
              }
            ) {
              edges {
                node {
                  excerpt
                  fields {
+                   pinned
                    slug
                  }
                  frontmatter {
-                   pinned
                    date(formatString: "MMMM DD, YYYY")
                    title
                    description
