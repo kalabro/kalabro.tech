@@ -31,13 +31,15 @@ function Bio() {
           </span>
         </h4>
         <p>
-        I love solving problems regardless of the type of work: from basic client support to advanced devops tasks. I do it better when I understand how things work, but sometimes it just feels like magic.
+          I'm a Full Stack Developer and Engineering Mentor, obsessed with
+          regular expressions, books, and web technologies. In my work, I mix
+          old with new, soft with hard, cats with dogs. When it's not a
+          disaster, it's pure magic!
         </p>
         <p>
-          <a href="https://hachyderm.io/@kalabro">Mastodon</a> ~{" "}
-          <a href="https://twitter.com/kalabro">Twitter</a> ~{" "}
           <a href="https://www.linkedin.com/in/kalabro/">LinkedIn</a> ~{" "}
-          <a href="https://topmate.io/kalabro">Mentorship</a>
+          <a href="https://twitter.com/kalabro">Twitter</a> ~{" "}
+          <a href="https://hachyderm.io/@kalabro">Mastodon</a>
         </p>
       </div>
     </div>

@@ -24,3 +24,10 @@
   padding-left: 0.75em;
   border-left: 0.25em solid #1ca086;
 }
+
+.post-pinned {
+  background-color: #c6fcec32;
+  margin: -20px;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
