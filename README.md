@@ -12,7 +12,7 @@ Hi there, this repo contains the source code for my personal blog [kalabro.tech]
 
 Push to `main` branch and Cloudflare Pages will build and deploy it.
 
-Requirement environment variables:
+Required environment variables:
 
 | Variable Name               | Value                |
 |-----------------------------|----------------------|
