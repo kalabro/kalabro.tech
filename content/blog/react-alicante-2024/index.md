@@ -2,6 +2,7 @@
 title: "React Alicante 2024"
 description: "Full list of talks with my short comments."
 date: "2024-09-25T10:00:00.000Z"
+image: image.jpg
 ---
 
 _✍️ This post is still a draft_
