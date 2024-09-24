@@ -1,6 +1,5 @@
 ---
 title: "Where to find a mentor"
-pinned: true
 description: "Last year I had several mentorship experiences, and the results impressed me. In this article, I reflect on what worked for me and suggest how to get started."
 date: "2023-01-15T11:00:00.000Z"
 image: mentor-eye.jpg
