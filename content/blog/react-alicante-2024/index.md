@@ -154,7 +154,7 @@ Forbes provided a great visual explanation of a race condition bug using a searc
 An overview of all the latest React 19 features including React Compiler (even though it's not part of React 19)
 
 ### From mentee to mentor: the art of asking questions that accelerate careers by Kate Marshalkina
-[**@kalabro**](https://x.com/kalabro)
+[**@kalabro**](https://x.com/kalabro) ([slides](https://kalabro.tech/slides/from%20mentee%20to%20mentor%20-%20Kate%20Marshalkina%20-%202024.pdf))
 
 I had the pleasure of giving a lightning talk, which can be summarized as: "Don't give advice, ask more questions." More on my speaker experience at the end of the post
 
