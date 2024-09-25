@@ -34,7 +34,7 @@ A hands on demo of server components and actions in Next.js. Aurora popularizes 
 
 A good refresher on debugging techniques from Redux maintainer. I've never used `console.table()` or `console.count()` before. `console.timeStamp()` should be handy in profiling, too.
 
-### 🌟 Building Complex UI with State Machines by Erik Rasmussen 🌟 
+### Building Complex UI with State Machines by Erik Rasmussen 
 [**@erikras**](http://x.com/erikras) ([code](https://github.com/erikras/search-state-machine))
 
 Erik, who is most famous for [redux-form](https://github.com/redux-form/redux-form) and [final-form](https://github.com/final-form/final-form), walked us through building a state machine for a search form using [XState](https://github.com/statelyai/xstate). In his unique style, he made me, my teammates and probably the whole audience fall in love with XState.
@@ -110,7 +110,7 @@ Yes, TypeScript is great, but it doesn't help in the good old JavaScript runtime
 
 Atila stepped up on short notice to replace a cancelled talk and delivered a high-quality deep dive into signals in SolidJS and beyond. I learned about lazy vs eager signals, performance optimizations in Solid and upcoming [SolidHack](https://hack.solidjs.com/) event.
 
-### 🌟 One App Fits All: Building Responsive Experiences in React by Kateryna Porshnieva 🌟
+### One App Fits All: Building Responsive Experiences in React by Kateryna Porshnieva
 [**@krambertech**](https://x.com/krambertech)
 
 Kateryna reminded us that we may not need JS at all with the power of modern CSS. She built a responsive app interface using [Utopia](https://utopia.fyi/) fluid design approach, [clamp()](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp) CSS function, CSS grid, [container queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries), [ch units](https://caniuse.com/ch-unit), [hover](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/hover), [pointer](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/pointer), and [prefers-reduced-motion](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) media queries. As an example of UI that does require JS, Kateryna built a fully fluid navigation bar using [ResizeObserver](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver).
@@ -119,7 +119,7 @@ Kateryna reminded us that we may not need JS at all with the power of modern CSS
 
 *Another 17 talks on React 19, TypeScript, React Native, soft skills and more*
 
-### 🌟 useWat by David Khourshid 🌟
+### useWat by David Khourshid
 [**@DavidKPiano**](https://x.com/DavidKPiano)
 
 React library (or framework?) is far from being perfect. With humor and kindness, the author of [XState](https://github.com/statelyai/xstate) walked us through some of the weirdest React parts that we learned to accept as a norm. In all this mess, it's best to stop worrying about the latest React features and instead focus on building great products for our users.
@@ -152,12 +152,12 @@ Forbes provided a great visual explanation of a race condition bug using a searc
 ### React is turning 19! by Nikhil Sharma
 [**@niksharma1997**](https://twitter.com/niksharma1997)
 
-An overview of all the latest React 19 features including React Compiler (even though it's not part of React 19)
+An overview of all the latest React 19 features including React Compiler (which is not part of React 19, technically speaking).
 
 ### From mentee to mentor: the art of asking questions that accelerate careers by Kate Marshalkina
 [**@kalabro**](https://x.com/kalabro) ([slides](https://kalabro.tech/slides/from%20mentee%20to%20mentor%20-%20Kate%20Marshalkina%20-%202024.pdf))
 
-I had the pleasure of giving a lightning talk, which can be summarized as: "Don't give advice, ask more questions." More on my speaker experience at the end of the post
+I had the pleasure of giving a lightning talk, which can be summarized as: "Don't give advice, ask more questions." More on my speaker experience at the end of the post.
 
 ### Covid fairytale: Building a React Native App to find a toilet roll during pandemic by Aris Markogiannakis
 [**@arismarko**](https://x.com/arismarko) ([slides](https://www.canva.com/design/DAD6TaBCdys/CihHkJErEGIy4Ls7U5B9Uw/view?utm_content=DAD6TaBCdys&utm_campaign=designshare&utm_medium=link&utm_source=viewer))
@@ -205,7 +205,7 @@ A lot of wisdom about software development processes delivered through a set of 
 
 ## My summary
 
-React Alicante is known for its smooth organization, international speakers, and a long list of diverse talks. This year, the conference hosted 18 full talks, 16 lightning talks, and 12 workshops—a massive volume of content! Many speakers and attendees return year after year, which is a sign of a great community. For me, it was the second React Alicante in a row, and this time I returned with a lightning talk!
+React Alicante is known for its smooth organization, international speakers, and a long list of diverse talks. This year, the conference hosted 18 full talks, 16 lightning talks, and 12 workshops—a massive volume of content! Many speakers, sponsors and attendees return year after year, which is a sign of a great community. For me, it was the second React Alicante in a row, and this time I returned with a lightning talk!
 
 #### Speaker experience 📣
 
@@ -215,11 +215,11 @@ If you want to learn more about my mentorship experience, please check out my ar
 
 #### Technical issues ☠️
 
-This year, I paid more attention to technical issues because I was concerned about them as a speaker. It turned out that a tiny technical issue can severely affect a talk. As a speaker, it’s easy to start panicking and lose the vibe. The audience quickly picks up on this and becomes disengaged. Experienced speakers had video recordings of their live coding pieces in case something went wrong.
+This year, I paid more attention to technical issues because I was concerned about them as a speaker. It turned out that a tiny technical issue can ruin a talk. As a speaker, it’s easy to start panicking and lose the vibe. The audience quickly picks up on this and becomes disengaged. Experienced speakers had video recordings of their live coding pieces in case something went wrong.
 
 #### Popular topics 📊
 
-Unlike last year, **React Server Components** were mentioned in every other talk, sometimes with a fair dose of skepticism due to Next.js situation. **TypeScript** without any doubt became a first-class citizen in the React ecosystem. **XState** was a very popular topic too.
+Unlike last year, **React Server Components** were mentioned in every other talk, sometimes with a fair dose of skepticism due to the Next.js situation. **TypeScript** without any doubt became a first-class citizen in the React ecosystem. **XState** was a very popular topic too.
 
 AI was present, but mostly in the form of jokes. Irrelevant Copilot suggestions during live coding demos made people smile. 
 
