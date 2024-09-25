@@ -200,6 +200,7 @@ Eric presented [Rise Tools](https://rise.tools/), a framework for building mobil
 Kevin shared how he built a game using genetic algorithms to evolve the complexity of game levels. It was fun to listen to his story full of interesting learnings, little details, and funny episodes. I'm impressed by the amount of work required to build a game from scratch. All code is available on [Github](https://github.com/kevinmaes/eggdrop). Of couse, powered by XState!
 
 ### The Illusion of Success: When Delivering on Time is not Everything by Paulina Chojnowska
+[**Slides**](https://www.slideshare.net/slideshow/the-illusion-of-success-when-delivering-on-time-is-not-everything/272020020)
 
 A lot of wisdom about software development processes delivered through a set of funny stories. As a community, we all agree on the importance of work-life balance, the dangers of tech debt, the power of prioritization, and the synergies of teamwork. Yet, things often go wrong. Paulina’s talk was a great reminder that our jobs are not only about code. That’s why we probably won’t be replaced by AI anytime soon.
 
