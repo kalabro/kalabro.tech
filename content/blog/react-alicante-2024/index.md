@@ -5,8 +5,6 @@ date: "2024-09-25T10:00:00.000Z"
 image: image.jpg
 ---
 
-_✍️ This post is still a draft_
-
 On this page, you can find a full list of all [React Alicante 2024](https://reactalicante.es/) talks with my short comments. A longer opinionated summary at the end.
 
 Enjoy and feel free to reuse it if you need a summary for your team or employer. 
@@ -86,7 +84,7 @@ What makes some products really great? They solve a hard problem for their users
 Miquel explained how passkeys work by building an app with [SimpleWebAuthn](https://github.com/MasterKale/SimpleWebAuthn) and Next.js. While passwordless approach is much more secure, Miquel admitted that after years of memorizing passwords, users don't feel confident in getting rid of them. Popularization talks like his are a great way to spread the word.
 
 ### Let's build everything! The chaos of pet projects by Mikhail Korolev
-[**@mkrl__**](https://x.com/mkrl__)
+[**@mkrl__**](https://x.com/mkrl__) ([slides](https://docs.google.com/presentation/d/1AeJ0uVkwnVYmFt6eKRcsoDangpwZbqS3ixks8d1ZwrU/edit?usp=sharing))
 
 A mix of art and technology from someone who broke two arms in an bicycle accident just before the conference. Misha is the king of pet projects and shared how he manages his projects from the initial idea to the finish line. Talks like this make in-person conferences special, and it's impossible to fully capture their vibe in text or video.
 
