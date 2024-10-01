@@ -69,9 +69,9 @@ Every static site eventually needs more dynamic data fetching, and it's historic
 With end-to-end type safety provided by tools like tRPC, you can "dot your way into it" without ever leaving your IDE. But how does tRPC work? Gabriel suggests implementing one yourself to understand the magic. The constraints of a lightning talk, unfortunately, didn't allow me to catch the details.
 
 ### Diagrams you need to know by Jenny Truong
-[**@jen\_ayy\_**](https://x.com/jen_ayy_)
+[**@jen\_ayy\_**](https://x.com/jen_ayy_) ([slides](https://noti.st/jennytru/fIkAen/diagrams-you-need-to-know))
 
-Non-technical lightning talk from a stately team member with tons of links to diagram drawing services. I only managed to capture https://dbdiagram.io/ and https://www.tldraw.com/. Waiting for the slides!
+Non-technical lightning talk from a stately team member with tons of links to diagram drawing services. I only managed to capture https://dbdiagram.io/ and https://www.tldraw.com/. Checkout the slides for more!
 
 ### Using events and modern state management tools to clean up local-first logic by Wojciech Ogrodowczyk
 [**@sharnik**](https://github.com/sharnik) ([slides](https://pitch.com/v/react-alicante-wojciech-p7utf2))
